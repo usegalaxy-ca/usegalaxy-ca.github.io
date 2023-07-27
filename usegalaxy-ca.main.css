@@ -3,20 +3,6 @@
  */
 
 :root {
-  --primary:                 #225f87;
-  --primary-dark:            #124f77;
-  --primary-darker:          #022f57;
-  --primary-light:           #326f97;
-  --primary-muted:           #638cb3;
-  --primary-lighter:         #0077A5;
-  --primary-lightest:        #2097C5;
-
-  --text-color:              #000000;
-  --text-success:            #52c41a;
-  --text-info:               #1890ff;
-  --text-warning:            #faad14;
-  --text-error:              #f5222d;
-  --text-muted:              #999;
 
   --fontsize-base:            max(8px,min(0.4vh + 0.6vw,10px));
   --fontsize-tiny:            calc(0.9 * var(--fontsize-base));
@@ -36,22 +22,6 @@
 
 }
 
-/*
- * Util classes
- */
-
-.text-left { text-align: left; }
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-
-.text-success { color: var(--text-success); }
-.text-info { color: var(--text-info); }
-.text-warning { color: var(--text-warning); }
-.text-error { color: var(--text-error); }
-.text-muted { color: var(--text-muted); }
-
-.float-left { float: left; }
-.float-right { float: right; }
 
 #root {
   overflow-x: auto;
@@ -124,6 +94,21 @@ a:hover {
   padding-bottom: 1%;
   font-size: var(--fontsize-small);
   font-family: monaco,monospace;
+}
+
+.ImportantMessage{
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+  margin-bottom: 3%;
+  background-color: lightcoral;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  font-size: var(--fontsize-small);
+  color:#5a0b0c;
 }
 
 .LoginButtonSections{
