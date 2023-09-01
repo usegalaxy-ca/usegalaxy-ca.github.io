@@ -42,11 +42,9 @@
         </div>
       </div>
 
-      <div>
 
-          <br><br><br>
+      <br>
 
-      </div>
 
       <!-- IMPORTANT MESSAGE -->
       <div class="ImportantMessage">
@@ -57,28 +55,45 @@
           <div>The official launch is scheduled for early 2024. Stay tuned !</div>
       </div>
 
-      <br>
-      
-      <div>
 
-        <form action="" id="helpForm" >
+      <div class="HelpBox">
 
-          <label for="email">email: </label>
-          <input type="email" name="email" required >
-          <br>
+        <form action="" id="helpForm" style="width:100%">
+
+            <h2 style="width:100%;text-align: center">
+               Contact Us
+            </h2>
+
+            <br>
+
+            <p>
+                If you want to know more, do not hesitate to reach to us using the form below.
+                <br><br>
+                Likely, if you would like to become a beta-tester for the new platform, we are
+                very much interrested to here from you.
+            </p>
+
+            <br>
+
+          <label for="email">Email: &nbsp;</label>
+          <input type="email" name="email" required style="width:80%">
+          <br><br>
           <label for="subject">Subject: </label>
-          <input type="text" name="subject" value="[UseGalaxy]:" required >
-          <br>
+          <input type="text" name="subject" required style="width:80%">
+          <br><br>
           <label for="message">Message: </label>
-          <input type="text" name="message" required >
-          <br>
+<!--          <input type="text" name="message" required style="width:70%;height:30%">-->
+            <textarea type="text" name="message" required style="width:80%" rows="4"></textarea>
+          <br><br>
           <label id="feedback"></label>
           <br>
-          <button type="submit" id="btnSubmit">
-            Submit
-          </button>
+
+              <button class="HelpSendButton" type="submit" id="btnSubmit" >
+                Send
+              </button>
 
         </form>
+
       </div>
       
       <br>

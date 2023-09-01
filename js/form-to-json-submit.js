@@ -24,7 +24,12 @@ async function submitForm(e, form) {
 
     const jsonFormData = { };
     for(const pair of new FormData(form)) {
-        jsonFormData[pair[0]] = pair[1];
+        if(pair[0]=="email")
+            jsonFormData[pair[0]] = pair[1];
+        if(pair[0]=="subject")
+            jsonFormData[pair[0]] = ''.concat("[UseGalaxy]:",pair[1]);
+        if(pair[0]=="message")
+            jsonFormData[pair[0]] = pair[1];
     }
 
     const headers = {
