@@ -41,8 +41,16 @@ async function submitForm(e, form) {
     // console.log(response);
 
     const labelfeedback = document.getElementById('feedback');
-    if(response)
+    const textemail = document.getElementById('email');
+    const textsubject = document.getElementById('subject');
+    const textmessage = document.getElementById('message');
+    if(response) {
         labelfeedback.innerText = "Your request has been transmitted successfully!";
+        textemail.disabled = true;
+        textsubject.disabled = true;
+        textmessage.disabled = true;
+    }
+
         // window.location = `/`;
     else
        labelfeedback.innerText = "Error. Request not transmitted. Please retry!";
