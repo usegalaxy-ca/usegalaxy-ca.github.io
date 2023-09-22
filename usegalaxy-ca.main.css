@@ -156,7 +156,7 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
   aspect-ratio: 7/1;
-  width: 35%;
+  width: 45%;
   border: 1px solid lightgray;
   border-radius: 25px;
   font-size: var(--fontsize-small);
