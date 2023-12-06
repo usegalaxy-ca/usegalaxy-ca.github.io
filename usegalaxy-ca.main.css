@@ -105,7 +105,7 @@ a:hover {
   justify-content: space-evenly;
   padding: 5%;
   margin-bottom: 3%;
-  background-color: lightcoral;
+  background-color: lightblue;
   border: 1px solid darkred;
   border-radius: 5px;
   font-size: var(--fontsize-small);
@@ -156,7 +156,7 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
   aspect-ratio: 7/1;
-  width: 35%;
+  width: 52%;
   border: 1px solid lightgray;
   border-radius: 25px;
   font-size: var(--fontsize-small);
