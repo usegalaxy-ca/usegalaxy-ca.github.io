@@ -71,6 +71,52 @@ a:hover {
   max-width: 875px;
 }
 
+.TopHeader {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin-bottom:10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.NavBar {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*padding-top: 1rem;*/
+  /*border-bottom: 1px solid #eee;*/
+}
+.NavBar button {
+  display: inline-block;
+  color: #aaa;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: .1rem;
+  padding: .5rem 0.5rem;
+  width:22%;
+  min-width: 150px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-radius: .25rem;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+.NavBar button.active {
+  color: #eee;
+  background: var(--color);
+  cursor: default;
+}
+.NavBar button:not(.active):hover {
+  color: #999;
+  background: rgba(50,50,50,0.1);
+}
+
+
 .Header {
   width:100%;
   padding-top: 3px;
