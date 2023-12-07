@@ -16,7 +16,7 @@
 
   --color: #2C3143;
   --tile-bg: #F8F9FA;
-  --tile-bg-hover: #E8E9EA;
+  --tile-bg-hover: #225f87;;
   --border: #70707033;
   --error: #dc3545;
 
@@ -92,7 +92,7 @@ a:hover {
 }
 .NavBar button {
   display: inline-block;
-  color: #aaa;
+  color: #777;
   font-size: 1rem;
   text-decoration: none;
   margin: .1rem;
@@ -108,12 +108,12 @@ a:hover {
 }
 .NavBar button.active {
   color: #eee;
-  background: var(--color);
+  background: var(--tile-bg-hover);
   cursor: default;
 }
 .NavBar button:not(.active):hover {
-  color: #999;
-  background: rgba(50,50,50,0.1);
+  color: white;
+  background:var(--tile-bg-hover);
 }
 
 
@@ -210,7 +210,7 @@ a:hover {
   text-decoration: none;
 }
 .LoginButton:hover {
-  background: #124f77;
+  background: var(--tile-bg-hover);
   color: white;
 }
 
@@ -239,7 +239,7 @@ a:hover {
   border-radius: 5px;
 }
 .LinkRequestBox:hover {
-  background: #124f77;
+  background: var(--tile-bg-hover);
   color: white;
   text-decoration: none;
 }
@@ -270,7 +270,7 @@ a:hover {
   border-radius: 5px;
 }
 .LinkSquareBox:hover {
-  background: #124f77;
+  background: var(--tile-bg-hover);
   color: white;
   text-decoration: none;
 }
