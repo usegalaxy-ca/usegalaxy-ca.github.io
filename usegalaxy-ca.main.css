@@ -68,7 +68,7 @@ a:hover {
   align-items: center;
   width: 85vw;
   min-width:720px;
-  max-width: 875px;
+  max-width: 950px;
 }
 
 .TopHeader {
@@ -233,7 +233,7 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
   aspect-ratio: 5/1;
-  width: 75%;
+  width: 78%;
   border: 1px solid lightgray;
   border-radius: 10px;
   font-weight: normal;
