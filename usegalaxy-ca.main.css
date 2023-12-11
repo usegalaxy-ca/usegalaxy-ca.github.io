@@ -16,7 +16,7 @@
 
   --color: #2C3143;
   --tile-bg: #F8F9FA;
-  --tile-bg-hover: #E8E9EA;
+  --tile-bg-hover: #225f87;;
   --border: #70707033;
   --error: #dc3545;
 
@@ -68,8 +68,54 @@ a:hover {
   align-items: center;
   width: 85vw;
   min-width:720px;
-  max-width: 875px;
+  max-width: 950px;
 }
+
+.TopHeader {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin-bottom:10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.NavBar {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*padding-top: 1rem;*/
+  /*border-bottom: 1px solid #eee;*/
+}
+.NavBar button {
+  display: inline-block;
+  color: #777;
+  font-size: var(--fontsize-xsmall);
+  text-decoration: none;
+  margin: .1rem;
+  padding: .5rem 0.5rem;
+  width:22%;
+  min-width: 150px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-radius: .25rem;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+.NavBar button.active {
+  color: #eee;
+  background: var(--tile-bg-hover);
+  cursor: default;
+}
+.NavBar button:not(.active):hover {
+  color: white;
+  background:var(--tile-bg-hover);
+}
+
 
 .Header {
   width:100%;
@@ -144,58 +190,60 @@ a:hover {
   color: white;
 }
 
-
-.LoginButtonSections{
-  padding-top:0%;
-  padding-bottom: 3%;
-  display: flex;
-  justify-content: flex-end;
-}
-.LoginButton {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  aspect-ratio: 7/1;
-  width: 52%;
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  font-size: var(--fontsize-small);
-  font-weight: bold;
-  text-decoration: none;
-}
-.LoginButton:hover {
-  background: #124f77;
-  color: white;
-}
-
 .RequestSections {
   width:100%;
   display:flex;
   padding-left: 5%;
   padding-right: 5%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .LinkRequestBox {
   margin-top:2%;
   margin-bottom:1%;
+  padding:2%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: row;
+  flex-direction: column;
   color: #2C3143;
   text-decoration: none;
   font-size: var(--fontsize-small);
   font-weight: bold;
-  width: 42%;
-  height: 9vw;
-  max-height: 90px;
+  width: 21%;
+  height: 10vw;
+  max-height: 100px;
   border: 1px solid lightgray;
   border-radius: 5px;
 }
 .LinkRequestBox:hover {
-  background: #124f77;
+  background: var(--tile-bg-hover);
   color: white;
   text-decoration: none;
+}
+
+.LoginButtonSections{
+  padding-top:3%;
+  padding-bottom: 6%;
+  display: flex;
+  justify-content: center;
+}
+.LoginButton {
+  background-color: #A8eda8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  aspect-ratio: 5/1;
+  width: 78%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: var(--fontsize-small);
+  text-decoration: none;
+}
+.LoginButton:hover {
+  /*background: var(--tile-bg-hover);*/
+  background: #1c7430;
+  color: white;
 }
 
 .GalaxySections {
@@ -224,7 +272,7 @@ a:hover {
   border-radius: 5px;
 }
 .LinkSquareBox:hover {
-  background: #124f77;
+  background: var(--tile-bg-hover);
   color: white;
   text-decoration: none;
 }
