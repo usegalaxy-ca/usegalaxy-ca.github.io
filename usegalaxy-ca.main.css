@@ -40,17 +40,20 @@ html, body {
  */
 
 h1 {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.6em;
   font-size: var(--fontsize-large);
 }
 h2 {
+  margin-bottom: 0.6em;
   font-size: var(--fontsize-medium);
 }
 h3 {
   font-size: var(--fontsize-medium);
+  margin-bottom: 0.5em;
 }
-h3, h4 {
+h4 {
   font-size: var(--fontsize-small);
+  margin-bottom: 0.4em;
 }
 a {
   color: #2C3143
@@ -119,19 +122,24 @@ a:hover {
 
 .Header {
   width:100%;
-  padding-top: 3px;
+  padding: 10px;
   font-family: monaco,monospace;
 }
 .HeaderTitle{
   width:100%;
   text-align: center;
-  font-size: var(--fontsize-xlarge);
+  font-size: var(--fontsize-large);
 }
 .HeaderSubTitle{
   width:100%;
   text-align: center;
   font-size: var(--fontsize-medium);
 }
+
+.GeneralContent{
+  padding-top:5px;
+}
+
 
 .Summary {
   width:100%;
