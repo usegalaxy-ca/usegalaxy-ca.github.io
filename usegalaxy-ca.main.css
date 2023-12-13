@@ -40,14 +40,17 @@ html, body {
  */
 
 h1 {
+  margin-top: 1.5em;
   margin-bottom: 0.6em;
   font-size: var(--fontsize-large);
 }
 h2 {
+  margin-top: 1.5em;
   margin-bottom: 0.6em;
   font-size: var(--fontsize-medium);
 }
 h3 {
+  margin-top: 1em;
   font-size: var(--fontsize-medium);
   margin-bottom: 0.5em;
 }
