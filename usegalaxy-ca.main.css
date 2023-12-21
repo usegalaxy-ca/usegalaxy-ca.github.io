@@ -301,14 +301,13 @@ a:hover {
 .PeoplePane {
   width:100%;
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .PeopleBox {
-  margin-top:2%;
-  margin-bottom:1%;
-  padding-top:3%;
-  padding-bottom:2%;
+  padding: 0.5%;
+  margin:1%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -317,9 +316,9 @@ a:hover {
   text-decoration: none;
   font-size: var(--fontsize-small);
   font-weight: bold;
-  aspect-ratio: 1/1;
-  width: 21%;
-  max-height: 190px;
+  width: 30%;
+  min-width: 30%;
+  max-width: 250px;
   border: 1px solid lightgray;
   border-radius: 5px;
 }
