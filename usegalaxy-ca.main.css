@@ -298,6 +298,32 @@ a:hover {
   justify-content: space-between;
 }
 
+.PeoplePane {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.PeopleBox {
+  margin-top:2%;
+  margin-bottom:1%;
+  padding-top:3%;
+  padding-bottom:2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #2C3143;
+  text-decoration: none;
+  font-size: var(--fontsize-small);
+  font-weight: bold;
+  aspect-ratio: 1/1;
+  width: 21%;
+  max-height: 190px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
 
 /*
  * App Footer elements
