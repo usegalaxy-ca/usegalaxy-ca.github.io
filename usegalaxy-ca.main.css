@@ -308,14 +308,9 @@ a:hover {
 .PeopleBox {
   padding: 0.5%;
   margin:1%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
   color: #2C3143;
   text-decoration: none;
-  font-size: var(--fontsize-small);
-  font-weight: bold;
+  font-size: var(--fontsize-xsmall);
   width: 30%;
   min-width: 30%;
   max-width: 250px;
