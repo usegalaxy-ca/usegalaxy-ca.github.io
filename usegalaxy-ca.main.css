@@ -245,7 +245,7 @@ a:hover {
   justify-content: space-evenly;
   aspect-ratio: 5/1;
   width: 78%;
-  border: 1px solid lightgray;
+  border: 4px solid darkred;
   border-radius: 10px;
   font-weight: normal;
   font-size: var(--fontsize-small);
