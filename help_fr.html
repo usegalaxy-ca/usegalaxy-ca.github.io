@@ -3,7 +3,7 @@
 <html>
 
   <head>
-      <title>UseGalaxy Canada - A Canadian UseGalaxy</title>
+      <title>UseGalaxy.ca - A Canadian UseGalaxy</title>
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,8 @@
           gtag('config', 'G-JW6DK98RDF');
         </script>
 
+        <script type="module" src="js/form-to-json-submit.js"></script>
+
         <style>
           .disabled {
             pointer-events: none;
@@ -35,7 +37,6 @@
   <body>
 
     <div class="MainViewPort">
-
         <div class="TopHeader">
 
             <div style="width: 20%;display:flex;align-items: center">
@@ -48,22 +49,22 @@
 
                 <div class="NavBar">
 
-                  <a href="https://starthere.usegalaxy.ca/about.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/about_fr.html" target="_self" >
                       <button type="button" >
                         About
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/data_policies.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/data_policies_fr.html" target="_self" >
                       <button type="button" >
                         Data Policies
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/data_transfer.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/data_transfer_fr.html" target="_self" >
                       <button type="button" >
                         Data Transfer
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/help.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/help_fr.html" target="_self" >
                       <button type="button" >
                         Help/requests
                       </button>
@@ -73,22 +74,22 @@
 
                 <div class="NavBar">
 
-                  <a href="https://starthere.usegalaxy.ca/terms_of_service.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/terms_of_service_fr.html" target="_self" >
                       <button type="button" >
                         Terms of service
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/aup.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/aup_fr.html" target="_self" >
                       <button type="button" >
                         Acceptable use
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/service_levels.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/service_levels_fr.html" target="_self" >
                       <button type="button" >
                         Service levels
                       </button>
                   </a>
-                  <a href="https://starthere.usegalaxy.ca/people.html" target="_self" >
+                  <a href="https://starthere.usegalaxy.ca/people_fr.html" target="_self" >
                       <button type="button" >
                         People
                       </button>
@@ -99,9 +100,9 @@
             </div>
         </div>
         <div style="width:100%;text-align: right">
-              <a href="https://starthere.usegalaxy.ca/data_transfer_fr.html" target="_self">
-                  <button type="button" class="langButtonFr" >
-                    <i>Français</i>
+              <a href="https://starthere.usegalaxy.ca/help.html" target="_self">
+                  <button type="button" class="langButtonEn" >
+                    <i>English</i>
                   </button>
               </a>
         </div>
@@ -109,84 +110,73 @@
       <!-- TITLE SECTION -->
       <div class="Header">
         <div class="HeaderTitle">
-          Data Transfer
+          Getting help on UseGalaxy Canada
         </div>
       </div>
 
 
-        <div class="GeneralContent">
+      <br>
 
 
-            <ol class="nested">
-              <li>
-                <p class="lead fw-bold">
-                  Using the Galaxy Upload Data feature through the Web browser
-                </p>
-                <ol>
-                  <li>
-                      Click on <b>Upload Data</b> on the top of the left panel
-                  </li>
-                  <li>
-                      Click on <b>Choose local file</b> and select the files or drop the files in the <b>Drop files here</b> part
-                  </li>
-                  <li>
-                      Click on <b>Start</b>
-                  </li>
-                  <li>
-                      Click on <b>Close</b>
-                  </li>
-                </ol>
-              </li>
+<!--      &lt;!&ndash; IMPORTANT MESSAGE &ndash;&gt;-->
+<!--      <div class="ImportantMessage">-->
+<!--            <h2>-->
+<!--                <b>UseGalaxy.ca IS IN BETA TEST AND STILL UNDER DEVELOPMENT</b>-->
+<!--            </h2>-->
+<!--          <br>-->
+<!--        <div>-->
+<!--          Please keep in mind that we DO NOT guarantee the stability of the platform at this moment. -->
+<!--          Report to us any issues you encounter using the form in the "Help & Requests" page. Your-->
+<!--          feedback will be very much appreciated. Also NOTE that users from Canadian -->
+<!--          educational and research institutions are prioritized at this moment.-->
+<!--          <br><br>-->
+<!--        </div>-->
+<!--        -->
+<!--          <div>The official production ready launch is scheduled for early 2024. Stay tuned !</div>-->
 
-                <br>
-
-              <li>
-                <p class="lead fw-bold">
-                  Using the galaxy-upload pyhton script
-                </p>
-                <p>
-                    If you are uploading your files from a Linux environment on which Python is installed, you can use the following Python code
-                    to assist you uploading files directly into your Galaxy histories.<br>
-                </p>
-                <ol>
-                  <li>
-                    Generate a secret key in your Galaxy account under "User/Preferences/Manage API Key".
-                  </li>
-
-                  <li>
-                      Get the code from Github: <a href="https://github.com/usegalaxy-ca/galaxy-upload">https://github.com/usegalaxy-ca/galaxy-upload</a>
-                  </li>
-
-                  <li>
-                    Follow the simple instructions here: <a href="https://github.com/usegalaxy-ca/galaxy-upload/blob/main/README.md">galaxy-upload README.md</a>
-                  </li>
-                </ol>
-              </li>
-
-                <br>
-
-              <li>
-                <p class="lead fw-bold">
-                  Directly using the Galaxy API (Bioblend) from your code (for advanced users)
-                </p>
-                  <p>
-                      BioBlend is a Python library for interacting with the Galaxy API. It’s goal is to make it easier to script
-                      and automate the running of Galaxy analyses and administering of a Galaxy server.
-                      You can find the full documentation here:
-                      <b><a href="https://bioblend.readthedocs.io/en/latest/index.html">Bioblend Full Documentation</a></b>
-                  </p>
-                <ol>
-
-                </ol>
-              </li>
+<!--      </div>-->
 
 
-            </ol>
+      <div class="HelpBox" >
 
+        <form action="" id="helpForm" style="width:100%">
 
+            <h2 style="width:100%;text-align: center">
+               Contact Us
+            </h2>
 
-        </div>
+            <br>
 
+            <p>
+            If you have issues using the platform, or if you want to know more about it or if you have special requests
+                such as to increase data storage quota or retention, or install new tools or reference files,
+                do not hesitate to reach to us using the form below.
+            </p>
+
+            <br>
+
+          <label for="email">Your email: </label>
+          <input type="email" id="email" name="email" required style="width:80%" >
+          <br><br>
+          <label for="subject">Subject: &nbsp;&nbsp;</label>
+          <input type="text" id="subject" name="subject" required style="width:80%">
+          <br><br>
+          <label for="message" style="vertical-align: top">Message: &nbsp;&nbsp;</label>
+<!--          <input type="text" name="message" required style="width:70%;height:30%">-->
+            <textarea type="text" id="message" name="message" required style="width:80%" rows="4"></textarea>
+          <br><br>
+          <label id="feedback"></label>
+          <br>
+
+              <button class="HelpSendButton" type="submit" id="btnSubmit" >
+                Send
+              </button>
+
+        </form>
+
+      </div>
+      
+      <br>
 
         <br><br><br>
         <!-- Logo SECTION -->
@@ -211,10 +201,10 @@
         <!-- FOOTER SECTION -->
       <div class='Footer'>
         <div>&copy; Galaxy server version 23.1</div>
-        <div><a href="https://starthere.usegalaxy.ca/about.html">About</a>  </div>
-        <div><a href="https://starthere.usegalaxy.ca/about.html">Citing UseGalaxy Canada</a>  </div>
+        <div><a href="https://starthere.usegalaxy.ca/about_fr.html">About</a>  </div>
+        <div><a href="https://starthere.usegalaxy.ca/about_fr.html">Citing UseGalaxy Canada</a>  </div>
         <div><a href="https://galaxyproject.org/citing-galaxy/">Citing Galaxy.org</a>  </div>
-        <div><a href="https://starthere.usegalaxy.ca/people.html">People</a>  </div>
+        <div><a href="https://starthere.usegalaxy.ca/people_fr.html">People</a>  </div>
       </div>
 
 

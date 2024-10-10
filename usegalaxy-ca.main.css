@@ -83,8 +83,26 @@ a:hover {
   flex-direction: row;
   padding-top: 5px;
   padding-bottom:5px;
-  margin-bottom:10px;
+  margin-bottom:5px;
   border-bottom: 1px solid lightgray;
+}
+.langButtonFr{
+  border-radius: 20px;
+  background-color: steelblue;
+  color:white;
+  font-size: 12px;
+  padding:2px;
+  padding-left:6px;
+  padding-right:6px
+}
+.langButtonEn{
+  border-radius: 20px;
+  background-color: indianred;
+  color:white;
+  font-size: 12px;
+  padding:2px;
+  padding-left:6px;
+  padding-right:6px
 }
 
 .NavBar {
