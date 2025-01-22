@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title>UseGalaxy Canada - A Canadian UseGalaxy</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="robots" content="index, follow">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://starthere.usegalaxy.ca/usegalaxy-ca.main.css">
+      <link rel="stylesheet" href="usegalaxy-ca.main.css">
+
+        <style>
+          .disabled {
+            pointer-events: none;
+            cursor: default;
+          }
+        </style>
+
+  </head>
+
+  <body>
+
+    <div class="MainViewPort">
+
+        <div class="TopHeader">
+
+            <div style="width: 20%;display:flex;align-items: center">
+                <a href="https://starthere.usegalaxy.ca/">
+                    <img width="100%" src="https://starthere.usegalaxy.ca/images/Galaxy_Canada_Logo.png">
+                </a>
+            </div>
+
+            <div style="width:80%">
+
+                <div class="NavBar">
+
+                  <a href="https://starthere.usegalaxy.ca/about.html" target="_self" >
+                      <button type="button" >
+                        About
+                      </button>
+                  </a>
+                  <a href="https://starthere.usegalaxy.ca/data_policies.html" target="_self" >
+                      <button type="button" >
+                        Data Policies
+                      </button>
+                  </a>
+                  <a href="https://starthere.usegalaxy.ca/data_transfer.html" target="_self" >
+                      <button type="button" >
+                        Data Management
+                      </button>
+                  </a>
+                  <a href="http://help.usegalaxy.ca" target="_blank" >
+                      <button type="button" >
+                        Help/requests
+                      </button>
+                  </a>
+
+                </div>
+
+                <div class="NavBar">
+
+                  <a href="https://starthere.usegalaxy.ca/terms_of_service.html" target="_self" >
+                      <button type="button" >
+                        Terms of service
+                      </button>
+                  </a>
+                  <a href="https://starthere.usegalaxy.ca/aup.html" target="_self" >
+                      <button type="button" >
+                        Acceptable use
+                      </button>
+                  </a>
+                  <a href="https://starthere.usegalaxy.ca/service_levels.html" target="_self" >
+                      <button type="button" >
+                        Service levels
+                      </button>
+                  </a>
+                  <a href="https://starthere.usegalaxy.ca/people.html" target="_self" >
+                      <button type="button" >
+                        People
+                      </button>
+                  </a>
+
+                </div>
+
+            </div>
+        </div>
+<!--        <div style="width:100%;text-align: right">-->
+<!--              <a href="https://starthere.usegalaxy.ca/data_transfer_fr.html" target="_self">-->
+<!--                  <button type="button" class="langButtonFr" >-->
+<!--                    <i>Français</i>-->
+<!--                  </button>-->
+<!--              </a>-->
+<!--        </div>-->
+
+      <!-- TITLE SECTION -->
+      <div class="Header">
+        <div class="HeaderTitle">
+          Globus collections<br>
+            for Canadian users
+        </div>
+      </div>
+
+        <div class="GeneralContent">
+
+          <p>
+              Globus is a service for fast, reliable, secure transfer of files. Designed specifically for researchers, Globus has an
+              easy-to-use interface with background monitoring features that automate the management of file transfers between any
+              two resources, whether they are on an Alliance cluster, another supercomputing facility, a campus cluster, lab server,
+              desktop or laptop. If you are new to Globus make sure to read the <a href="https://docs.globus.org/">Globus official documentation</a> and
+              the specific <a href="https://docs.alliancecan.ca/wiki/Globus">Documentation for Canadian users</a>.
+          </p>
+
+            <h2>
+                Using Globus collection to share data with collaborators
+            </h2>
+
+            <ol>
+
+                <li>
+                    <b>What are Globus endpoints and collections</b><br><br>
+                    Within the Globus ecosystem, Endpoints and Collections are key, closely related entities. An Endpoint
+                    represents a specific server or cluster of servers which provides access to storage. A Collection represents
+                    a location containing data plus the policies and permissions for accessing that data. There are two types of
+                    collections, a <i>Mapped Collection</i> is a single user’s access to an Endpoint (ex: User's home directory),
+                    and a <i>Guest Collection</i> is a share-point on a Mapped Collection (ex: a subdirectory user want to share).<br>
+                    Ref. <a target="_blank" href="https://docs.globus.org/guides/overviews/collections-and-endpoints/">Globus Collection and Endpoints</a>
+                    <br><br>
+                </li>
+                <li>
+                    <b>Accessing your <i>Mapped Collections</i> via the Globus portal</b><br><br>
+                    Go to the Globus File Manager: <a href="https://globus.alliancecan.ca/file-manager">https://globus.alliancecan.ca/file-manager</a>
+                    <br><br>
+                    This page shows you 2 navigation panels, each to be connected to storage Collections to enable data transfer between the two.
+                    Click on the Collection search box on either one side to find available Mapped and/or Guest Collections.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide1.png"></div>
+                    <br>
+                    This will lead you to a search page where you type in the name of the collection (or part of it) in the search box.
+                    A list of collections to choose from will appear. For example typing 'narval' will offer you to connect to 'Compute Canada - Narval'
+                    cluster. Then simply click on your choice.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide2.png"></div>
+                    <br>
+                    This will likely show you a page to authenticate to the site if you are not already authenticated.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide3.png"></div>
+                    <br>
+                    Once in your Mapped Collection (Typically your home directory) you can navigate the tree down to the desired
+                    location you want to share with others. In the example below '/home/xxxxx/test-globus/shared-data/'.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide4.png"></div>
+                </li>
+
+                <li>
+                    <b>Creating a <i>Guest Collection</i></b><br><br>
+                    To create a Guest Collection at a specific location, here '/home/xxxxx/test-globus/shared-data/', click the 3 dots
+                    on the right of the path as shown below.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide5.png"></div>
+                    <br>
+                    On the next page click on the "Collections" tab. You will see the list of Guest Collections which should be empty at
+                    this point. Click on "Add Guest Coolection" on the upper right corner.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide6.png"></div>
+                    <br>
+                    On the next page select the directory location and give the Collection a display name, then press the 'Create Collection' button.
+                    Many more attributes can be added to Collections (refer to the <a target="_blank" href="https://docs.globus.org/guides/overviews/collections-and-endpoints/">documentation</a> for more details).
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide7.png"></div>
+                </li>
+
+                <li>
+                    <b>Setting the permissions of your <i>Guest Collection</i></b><br><br>
+                    Now that our Collection is created, we set the permissions on this Collection. Go to the Collections using the
+                    tab on the left. Select 'Administered by you', then type in the search box the name of your Collection to
+                    find it and simply click the desired Collection in the list.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide8.png"></div>
+
+                    On the next page click on the 'Permissions' top tab, then on the button 'Add Permissions - Share With'. As
+                    you can see below, you can give read or write permission to specific users, groups or make data accessible to everyone.
+                    It is also possible to set permissions to sub-directories of files. Leaving '/' will set the permission for the whole Collection.
+                    Click 'Add Permission' once you are done. You can later add additional layers of permissions to the same Collection.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide9.png"></div>
+                    <br>
+                </li>
+
+                <li>
+                     <b>Sharing your Collection with the Globus File Manager</b><br><br>
+                    First you need to find the shareable link to your Guest Collection. In the Globus File Manager click the 'link'
+                    icon on the right side of your Collection as shown below.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide10.png"></div>
+                    <br>
+                    This will show you an icon to copy the URL that link directly to the shared Collection through the Globus File Manager interface (see below).
+                    The user will need to login to the Globus Web portal and have access to the Collection.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide11.png"></div>
+                </li>
+
+            </ol>
+
+            <h2>
+                Importing tracks (files) from a Globus <i>Guest Collection</i>
+            </h2>
+
+            <ol>
+                <li>
+                     <b>First make your <i>Guest Collection</i> accessible to all (public)</b><br><br>
+                    In order to import specific data files (tracks) in UseGalaxy.ca from Globus, or view
+                    tracks located in your Collection directly from the UCSC Genome Browser, the permissions need to be set to public. In your Collection,
+                    go to the 'Permissions' tab and click 'Add Permissions - Share With'. This time set the permission to public as shown below.
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide12.png"></div>
+                </li>
+                <li>
+                     <b>Finding out the full URL to directly access a file (track) through http</b><br><br>
+                    In order to import data in Galaxy or view a specific track on the UCSC Genome Browser you need
+                    to provide the direct URL that will access directly the file through HTTP without the
+                    Globus File Manager interface.<br><br>
+
+                    Let's say we want to find the URL for a file in our example Collection as shown in the File Manager below
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide13.png"></div>
+                    <br>
+
+                    So the path to this file in the Collection is:  <b><i>file_path = '/bamExample.bam'</i></b>
+
+                    <br><br>
+                    Then navigate back to the Collection
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide8.png"></div>
+                    <br>
+                    On the Collection Overview page locate the Domain attribute as shown below:
+                    <div style="width:100%;text-align:center;padding:3%"><img width="800" src="images/globus/slide14.png"></div>
+                    <br>
+                    The full URL of the file will then be:
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><i>file_url = 'https://g-753906.6d81c.5898.data.globus.org/bamExample.bam'</i></b>
+                </li>
+            </ol>
+
+
+        </div>
+
+
+        <br><br><br>
+        <!-- Logo SECTION -->
+        <div style="width:100%;display:flex;justify-content: space-around;align-items: center">
+            <div style="width:35%">
+                  <a href="https://alliancecan.ca"  target="_blank" >
+                      <img width="100%" src="https://starthere.usegalaxy.ca/images/Alliance_logo.svg" alt="Alliance" >
+                  </a>
+            </div>
+            <div style="width:10%">
+                  <a href="https://calculquebec.ca"  target="_blank" >
+                      <img width="100%" src="https://starthere.usegalaxy.ca/images/calcul-quebec-logo.png" alt="CalculQuebec" >
+                  </a>
+            </div>
+            <div style="width:25%">
+                  <a href="https://usherbrooke.ca"  target="_blank" >
+                      <img width="100%" src="https://starthere.usegalaxy.ca/images/universite-sherbrooke-logo.png" alt="UdS" >
+                  </a>
+            </div>
+        </div>
+
+        <!-- FOOTER SECTION -->
+      <div class='Footer'>
+        <div>&copy; Galaxy server version 23.1</div>
+        <div><a href="https://starthere.usegalaxy.ca/about.html">About</a>  </div>
+        <div><a href="https://starthere.usegalaxy.ca/about.html">Citing UseGalaxy Canada</a>  </div>
+        <div><a href="https://galaxyproject.org/citing-galaxy/">Citing Galaxy.org</a>  </div>
+        <div><a href="https://starthere.usegalaxy.ca/people.html">People</a>  </div>
+      </div>
+
+
+    </div>
+
+
+
+
+  </body>
+
+</html>
