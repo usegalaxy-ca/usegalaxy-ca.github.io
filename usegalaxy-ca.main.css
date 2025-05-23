@@ -324,14 +324,17 @@ a:hover {
 }
 
 .PeopleBox {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 1%;
   margin:1%;
   color: #2C3143;
   text-decoration: none;
   font-size: var(--fontsize-xsmall);
-  width: 30%;
-  min-width: 30%;
-  max-width: 250px;
+  width: 48%;
+  min-width: 48%;
+  max-width: 390px;
   border: 1px solid lightgray;
   border-radius: 5px;
 }
