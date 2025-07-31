@@ -205,8 +205,18 @@
                 </li>
               </ul>
 
-             <h3>Periodic purge of deleted datasets</h3>
-              Every Monday morning, a scheduled purge automatically removes <b>deleted</b> datasets that are older than <b>30 days</b>.
+             <h3>Periodic purge</h3>
+              <ul>
+                <li>
+                  <em><b>User deleted datasets</b></em>: every Monday morning, a scheduled purge automatically removes datasets that have
+                  been marked <b>deleted</b> by users more than <b>30 days</b> prior.
+                </li>
+                <br>
+                <li>
+                  <em><b>Old histories</b></em>: all histories containing NO dataset younger than the corresponding
+                  <b>Storage retention period</b> will be deleted and purged, except histories that are shared or containing at least one shared dataset.
+                </li>
+              </ul>
             </div>
 
 
