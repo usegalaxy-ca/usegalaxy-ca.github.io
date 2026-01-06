@@ -14,6 +14,8 @@
       <link rel="stylesheet" href="https://starthere.usegalaxy.ca/usegalaxy-ca.main.css">
       <link rel="stylesheet" href="usegalaxy-ca.main.css">
 
+      <script src="js/headerfooter.js"></script>
+
         <style>
           .disabled {
             pointer-events: none;
@@ -27,68 +29,9 @@
 
     <div class="MainViewPort">
 
-        <div class="TopHeader">
+        <!-- HEADER SECTION -->
+        <div id="header_fr" class="TopHeader"></div>
 
-            <div style="width: 20%;display:flex;align-items: center">
-                <a href="https://starthere.usegalaxy.ca/">
-                    <img width="100%" src="https://starthere.usegalaxy.ca/images/Galaxy_Canada_Logo.png">
-                </a>
-            </div>
-
-            <div style="width:80%">
-
-                <div class="NavBar">
-
-                  <a href="https://starthere.usegalaxy.ca/about_fr.html" target="_self" >
-                      <button type="button" >
-                        À propos
-                      </button>
-                  </a>
-                  <a href="https://starthere.usegalaxy.ca/data_policies_fr.html" target="_self" >
-                      <button type="button" >
-                        Politiques sur<br>les données
-                      </button>
-                  </a>
-                  <a href="https://starthere.usegalaxy.ca/data_transfer_fr.html" target="_self" >
-                      <button type="button" >
-                        Transfert<br>de données
-                      </button>
-                  </a>
-                  <a href="http://help.usegalaxy.ca" target="_blank" >
-                      <button type="button" >
-                        Aide
-                      </button>
-                  </a>
-
-                </div>
-
-                <div class="NavBar">
-
-                  <a href="https://starthere.usegalaxy.ca/terms_of_service_fr.html" target="_self" >
-                      <button type="button" >
-                        Conditions<br>d'utilisation
-                      </button>
-                  </a>
-                  <a href="https://starthere.usegalaxy.ca/aup_fr.html" target="_self" >
-                      <button type="button" >
-                        Politique<br>d'utilisation
-                      </button>
-                  </a>
-                  <a href="https://starthere.usegalaxy.ca/service_levels_fr.html" target="_self" >
-                      <button type="button" >
-                        Niveaux<br>de service
-                      </button>
-                  </a>
-                  <a href="https://starthere.usegalaxy.ca/people_fr.html" target="_self" >
-                      <button type="button" >
-                        Équipe
-                      </button>
-                  </a>
-
-                </div>
-
-            </div>
-        </div>
         <div style="width:100%;text-align: right">
               <a href="https://starthere.usegalaxy.ca/data_policies.html" target="_self">
                   <button type="button" class="langButtonEn" >
@@ -111,16 +54,19 @@
               <h2>Définitions</h2>
 
               <p>
-                  Le terme <b>information personnelle</b> est employé pour désigner toute information enregistrée ou toute opinion à propos
-                  d’une personne dont l’identité est apparente ou peut raisonnablement être déterminée à partir de cette information ou opinion.
-                  Ceci comprend les informations sensibles.
+                  Le terme <b>information personnelle</b> est employé pour désigner toute information enregistrée
+                  ou toute opinion à propos d’une personne dont l’identité est apparente ou peut raisonnablement
+                  être déterminée à partir de cette information ou opinion. Ceci comprend les informations sensibles.
+
               </p>
 
               <p>
-                  Le terme <b>information sensible</b> est employé pour désigner toute information ou opinion révélant l’origine raciale ou ethnique
-                  d’une personne, sa santé, ses opinions politiques, son appartenance à une association politique, ses croyances ou affiliations
-                  religieuses ou philosophiques, son appartenance à une association professionnelle ou commerciale, son appartenance à un syndicat,
-                  ses préférences ou pratiques sexuelles ou son casier judiciaire.
+                  Le terme <b>information sensible</b> est employé pour désigner toute information ou opinion révélant
+                  l’origine raciale ou ethnique d’une personne, sa santé, ses opinions politiques, son
+                  appartenance à une association politique, ses croyances ou affiliations religieuses ou
+                  philosophiques, son appartenance à une association professionnelle ou commerciale, son
+                  appartenance à un syndicat, ses préférences ou pratiques sexuelles ou son casier judiciaire.
+
               </p>
 
               <p>
@@ -132,234 +78,233 @@
 
             <hr>
 
-            <h2>Data Retention and Quota Policy</h2>
+            <h2>Politique de conservation des données et d’imposition de quotas</h2>
 
             <p>
-              Because UseGalaxy Canada has a regional focus, it provides more support and larger quotas to the Canadian research communities.
+                De par sa vocation nationale, UseGalaxy Canada peut offrir plus de soutien
+                aux communautés de recherche canadiennes qui peuvent bénéficier de quotas plus élevés
             </p>
 
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th></th>
-                  <th>Canadian Users</th>
-                  <th>International Users</th>
-                  <th>Other Users</th>
+                  <th>Utilisateurs affiliés à un établissement d'enseignement ou de recherche au Canada</th>
+                  <th>Utilisateurs affiliés à un établissement d'enseignement ou de recherche ailleurs qu'au Canada</th>
+                  <th>Autres utilisateurs (ex: Utilisateurs authentifiés avec Google)</th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr>
-                  <td>Data analysis & visualization</td>
+                  <td>Analyse et visualisation des données</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                 </tr>
 
                 <tr>
-                  <td>Workflow creation</td>
+                  <td>Création de flux de travail (Workflow)</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                 </tr>
 
                 <tr>
-                  <td>Content sharing</td>
+                  <td>Partage de contenu</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                   <td>&#10003;</td>
                 </tr>
 
                 <tr>
-                  <td>Storage quota</td>
-                  <td>500GB</td>
-                  <td>250GB</td>
-                  <td>5GB</td>
+                  <td>Quota des données hébergées</td>
+                  <td>500 GB</td>
+                  <td>250 GB</td>
+                  <td>5 GB</td>
                 </tr>
 
                 <tr>
-                  <td>Storage retention period</td>
-                  <td>500 days</td>
-                  <td>365 days</td>
-                  <td>365 days</td>
+                  <td>Durée de conservation des données hébergées</td>
+                  <td>500 jours</td>
+                  <td>365 jours</td>
+                  <td>365 jours</td>
                 </tr>
               </tbody>
             </table>
 
             <div class="textbox">
-              <p>
-                Where:
-              </p>
 
+             <h3>Periodic purge</h3>
               <ul>
                 <li>
-                  <em>Canadian Users</em> are affiliated with any Canadian Academic or Research institutions.
+                  <em><b>Ensembles de données (datasets) effacées par l'utilisateur</b></em>: Tous les lundis matins, une purge automatique
+                    sera effectuée pour effacer définitivement du système toutes les données effacées par l'utilisateur plus
+                    de 30 jours précédents la purge.
                 </li>
+                <br>
                 <li>
-                  <em>International Users</em> are affiliated with Academic or Research institutions outside of Canada.
-                </li>
-                <li>
-                  <em>Other Users</em> are not affiliated with Academic or Research institutions (i.e. using Google or ORCID to login)
+                  <em><b>Anciens historiques (histories)</b></em>: Tous les historiques ne contenant aucune données plus jeunes que
+                    la <b>période de rétention</b> seront effacés et purgés, à l'exception des historiques partagés ou contenants au moins des données partagées.
                 </li>
               </ul>
-              <h3>Periodic purge of deleted datasets</h3>
-              Every Monday morning, a scheduled purge automatically removes <b>deleted</b> datasets that are older than <b>30 days</b>.
+
+
             </div>
 
 
 
-            <h2>Privacy Policy and Data Collection</h2>
+            <h2>Politique de confidentialité et collecte de données</h2>
 
             <p>
-              UseGalaxy Canada is committed to protecting your privacy. We do not collect, process, retain or share personal
-              data other than for the purposes described below.
+                UseGalaxy Canada s'engage à protéger votre vie privée. Nous ne collectons,
+                ne traitons, ne conservons, ni ne partageons aucune donnée personnelle à d'autres
+                fins que celles décrites ci-dessous.
             </p>
-
             <ol class="nested">
               <li>
                 <span class="lead fw-bold">
-                  Usage data
+                  Données d'utilisation
                 </span>
                 <ol>
                   <li>
-                    In order to monitor and enhance UseGalaxy Canada, we track and retain information about your interaction with the service (i.e. IP addresses, cookies, pages visited, tool invocation parameters, data uploads, etc).
+                    Afin de surveiller et d'améliorer la plateforme UseGalaxy Canada, nous suivons et conservons des
+                      informations sur votre interaction avec le service (c'est-à-dire adresses IP, fichiers de témoins (cookies),
+                      pages visitées, paramètres d'invocation d'outils, téléchargements de données, etc.)
                   </li>
                   <li>
-                    We may share tool usage data with the usegalaxy.* initiative to improve their Galaxy tool recommender system. When we do, we aggregate and anonymise this data to protect your privacy.
+                    Nous pouvons partager les statistiques d'utilisation des outils avec l'initiative usegalaxy.* pour lui
+                      permettre d’améliorer son système de recommandation d'outils. Lorsque nous le faisons, nous agrégeons
+                      et anonymisons ces données pour protéger vos informations personnelles.
                   </li>
                   <li>
-                    For promotional reasons, UseGalaxy Canada periodically creates public usage reports. When we do, we aggregate and anonymise this data to protect your privacy.
+                    Pour des raisons promotionnelles, UseGalaxy Canada crée périodiquement des rapports d'utilisation publics.
+                    Lorsque nous le faisons, nous agrégeons et anonymisons ces données pour protéger vos informations personnelles.
                   </li>
                 </ol>
               </li>
 
               <li>
                 <span class="lead fw-bold">
-                  Registration data
+                  Données d'inscription
                 </span>
                 <ol>
                   <li>
-                    If you choose to register an account with UseGalaxy Canada, we collect registration data
-                    (i.e. email address, institutional affiliation and public name).
+                    Si vous choisissez de créer un compte auprès de UseGalaxy Canada, nous collectons des données d'inscription
+                      (c'est-à-dire l'adresse courriel, l'affiliation institutionnelle et le nom public).
                   </li>
                   <li>
-                    UseGalaxy Canada may store and examine registration data to provide access
-                    to advanced features, extended quotas, and specialized computing facilities.
+                    UseGalaxy Canada peut stocker et examiner les données d'inscription pour donner accès à des fonctionnalités avancées,
+                      à des quotas accrus et à des ressources de calcul spécialisées.
+
                   </li>
                   <li>
-                    UseGalaxy Canada may contact registered account holders using the email address they provide for operational reasons, including:
+                    Pour des raisons opérationnelles, UseGalaxy Canada peut contacter les titulaires de comptes en utilisant l'adresse
+                      de courriel qui est fournie dans leur compte, notamment pour :
                     <ol>
                       <li>
-                        checking user account security including email verification,
+                        vérifier la sécurité du compte, y compris la validation des adresses courriels,
                       </li>
                       <li>
-                        communicating service downtime,
+                        communiquer les interruptions de service,
                       </li>
                       <li>
-                        communicating service improvements,
+                        communiquer les améliorations du service ou de la plateforme,
                       </li>
                       <li>
-                        communicating actions we are taking with respect to data quotas and retention periods,
+                        communiquer les mesures que nous prenons par rapport aux quotas de données et aux périodes de conservation,
                       </li>
                       <li>
-                        communicating actions we are taking with respect to jobs that are taking a large share of service capacity,
+                        communiquer les mesures que nous prenons par rapport aux tâches qui occupent une grande part de la capacité du service,
                       </li>
                       <li>
-                        responding to your support requests,
+                        répondre à vos demandes d'assistance,
                       </li>
                       <li>
-                        surveying existing and planned use in order to improve and promote the service,
+                        étudier l'utilisation existante et prévue afin d'améliorer et de promouvoir le service,
                       </li>
                       <li>
-                        discussing breaches of these Terms of Use, and
+                        discuter des violations des présentes conditions d'utilisation, et
                       </li>
                       <li>
-                        communicating updates to UseGalaxy Canada policies
+                        communiquer les mises à jour des politiques de UseGalaxy Canada
                       </li>
                     </ol>
                   </li>
                   <li>
-                    UseGalaxy Canada may contact registered account holders using the email address they provide for promotional
-                    reasons, such as seeking consent and content for newsletters, annual reports or media releases by operational
-                    partners and funding partners.
+                    Pour des raisons promotionnelles, UseGalaxy Canada peut contacter les titulaires de comptes en utilisant
+                      l'adresse de courriel qui est fournie dans leur compte, par exemple pour obtenir leur consentement
+                      ainsi que des renseignements pour les bulletins d'information, les rapports annuels ou les communiqués
+                      de presse des partenaires opérationnels et financiers..
                   </li>
                 </ol>
               </li>
 
               <li>
                 <span class="lead fw-bold">
-                  Data you upload and share
+                  Données que vous téléchargez et partagez
                 </span>
                 <ol>
                   <li>
-                    UseGalaxy Canada stores data which you provide to us voluntarily when you upload a dataset for hosting and analysis.
+                    UseGalaxy Canada stocke les données que vous nous fournissez volontairement lorsque vous téléversez un
+                      ensemble de données à des fins d'hébergement et d'analyse.
                   </li>
                   <li>
-                    You are prohibited from using UseGalaxy Canada to host or process sensitive data, including but not limited to personal data.
+                    Il vous est interdit d'utiliser UseGalaxy Canada pour héberger ou traiter des données sensibles, y compris,
+                      mais sans s'y limiter, des données personnelles.
                   </li>
                   <li>
-                    We may examine data you upload and share for alignment with our
-                    <a href="https://starthere.usegalaxy.ca/aup_fr.html">Acceptable Use Policy</a>.
+                    Nous pouvons examiner les données que vous téléversez et partagez pour vérifier leur
+                      conformité avec notre <a href="https://starthere.usegalaxy.ca/aup_fr.html">politique d'utilisation acceptable</a>.
                   </li>
                 </ol>
               </li>
 
               <li>
                 <span class="lead fw-bold">
-                  Cookies
+                  Témoins
                 </span>
                 <ol>
                   <li>
-                    UseGalaxy Canada uses cookies to identify users/computers in order to maintain user sessions.
+                    UseGalaxy Canada utilise des témoins pour identifier les personnes et/ou les
+                      ordinateurs qui se connectent à la plateforme afin de gérer leurs sessions de travail..
                   </li>
                   <li>
-                    UseGalaxy Canada cookies are not linked to your Registration data.
+                    Les témoins de UseGalaxy Canada ne sont pas reliés à vos données d'inscription..
                   </li>
                   <li>
-                    If you prefer not to receive cookies, you may set your browser to warn you before accepting cookies or you may also refuse all cookies by turning
-                    them off in your browser. Not accepting UseGalaxy Canada cookies will limit the functionality of the service.
-                  </li>
-                </ol>
-              </li>
-
-              <li>
-                <span class="lead fw-bold">
-                  Analytics
-                </span>
-                <ol>
-                  <li>
-                    UseGalaxy Canada uses Google Analytics to analyse usage and improve the service. Google Analytics uses cookies to generate data which is transmitted to Google. You can view Google’s Privacy Policy and options for controlling the data collected
-                    <a href="https://policies.google.com/technologies/partner-sites" target="_blank">here</a>.
+                    Si vous préférez ne pas recevoir de témoins, vous pouvez configurer votre navigateur pour qu'il vous avertisse
+                      avant d'accepter les témoins ou vous pouvez refuser tous les témoins en les désactivant dans votre navigateur.
+                      Ne pas accepter les témoins de UseGalaxy Canada limitera la fonctionnalité du service.
                   </li>
                 </ol>
               </li>
 
               <li id="data-location">
                 <span class="lead fw-bold">
-                  Data location
+                  Emplacement des données
                 </span>
                 <ol>
                   <li>
-                    UseGalaxy Canada hosts and shares open community reference, open annotation data, tool metadata, and anonymized tool usage data with international
-                    Galaxy Servers as part of the
-                    <a href="https://galaxyproject.org/usegalaxy/" target="_blank">usegalaxy.*</a>
-                    initiative.
+                    Dans le cadre de l'initiative <a href="https://galaxyproject.org/usegalaxy/" target="_blank">usegalaxy.*</a>,
+                      UseGalaxy Canada héberge et partage avec les serveurs UseGalaxy
+                      internationaux des références communautaires ouvertes,
+                      des données d'annotation ouvertes, des métadonnées relatives aux outils
+                      et des données anonymisées sur utilisation des outils
                   </li>
                   <li>
-                    Google Analytics uses cookies to generate data which may be transmitted and stored in Google servers outside Canada.
+                      Les données gérées par l’<a href="https://alliancecan.ca">Alliance de recherche numérique du Canada</a> en rapport avec l’assistance
+                      apportée aux utilisatrices et utilisateurs peuvent être stockées à l'extérieur du Canada.
                   </li>
                   <li>
-                    User support data managed by <a href="https://alliancecan.ca">The Digital Research Alliance of Canada</a> may be stored outside Canada
-                  </li>
-                  <li>
-                    All other data is stored and processed in Canada by the UseGalaxy Canada Operational Partners,
-                    and will not be provided to any third party unless:
+                    Toutes les autres données sont stockées et traitées au Canada par
+                      les partenaires opérationnels de UseGalaxy Canada et ne seront fournies à aucun tiers, sauf si :
                     <ol>
                       <li>
-                        you choose to share content through the service, or
+                        vous choisissez de partager du contenu via le service, ou
                       </li>
                       <li>
-                        we are required to do so by law.
+                        nous sommes tenus de le faire par la loi.
                       </li>
                     </ol>
                   </li>
@@ -368,11 +313,12 @@
 
               <li>
                 <span class="lead fw-bold">
-                  Modifying and removing personal data
+                  Modification et suppression des données personnelles
                 </span>
                 <ol>
                   <li>
-                    Registered account holders can see and modify the personal information collected by UseGalaxy Canada by logging into the service and navigating to
+                    Les titulaires de compte peuvent voir et modifier les informations
+                      personnelles collectées par UseGalaxy Canada en se connectant au service et en sélectionnant <br>
                     <span class="action">User</span>
                     &gt;
                     <span class="action">Preferences</span>
@@ -380,8 +326,8 @@
                     <span class="action">Manage Information</span>.
                   </li>
                   <li>
-                    Registered account holders can request removal of personal information at any time. Please
-                    <a href="https://starthere.usegalaxy.ca/help_fr.html">contact us</a>
+                    Les titulaires de compte peuvent demander la suppression des informations personnelles à tout moment.
+                    <a href="https://starthere.usegalaxy.ca/help_fr.html">Contactez-nous si vous êtes dans cette situation</a>
                     if you are in this position.
                   </li>
                 </ol>
@@ -412,13 +358,7 @@
         </div>
 
         <!-- FOOTER SECTION -->
-      <div class='Footer'>
-        <div>&copy; Galaxy Canada</div>
-        <div><a href="https://starthere.usegalaxy.ca/about_fr.html">À propos</a>  </div>
-        <div><a href="https://starthere.usegalaxy.ca/about_fr.html">Citer UseGalaxy Canada</a>  </div>
-        <div><a href="https://galaxyproject.org/citing-galaxy/">Citer Galaxy.org</a>  </div>
-        <div><a href="https://starthere.usegalaxy.ca/people_fr.html">Équipe</a>  </div>
-      </div>
+      <div id="footer_fr" class='Footer'></div>
 
 
     </div>
