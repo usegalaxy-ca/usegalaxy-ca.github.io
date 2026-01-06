@@ -24,8 +24,8 @@ async function loadComponent(url, elementId) {
 
 // Usage: Run after the DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
-    loadComponent('../header.html', 'header');
-    // loadComponent('footer.html', 'footer-container');
-    // loadComponent('header_fr.html', 'header');
-    // loadComponent('footer_fr.html', 'footer-container');
+    loadComponent('https://starthere.usegalaxy.ca/header.html', 'header');
+    loadComponent('https://starthere.usegalaxy.ca/header_fr.html', 'header_fr');
+    loadComponent('https://starthere.usegalaxy.ca/footer.html', 'footer');
+    loadComponent('https://starthere.usegalaxy.ca/footer_fr.html', 'footer_fr');
 });
