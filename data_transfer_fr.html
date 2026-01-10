@@ -43,7 +43,7 @@
       <!-- TITLE SECTION -->
       <div class="Header">
         <div class="HeaderTitle">
-          Data Transfer
+          Transfert de données
         </div>
       </div>
 
@@ -54,20 +54,20 @@
             <ol class="nested">
               <li>
                 <p class="lead fw-bold">
-                  Using the Galaxy Upload Data feature through the Web browser
+                  En utilisant la fonction de téléversement Galaxy via le navigateur Web à usegalaxy.ca
                 </p>
                 <ol>
                   <li>
-                      Click on <b>Upload Data</b> on the top of the left panel
+                      Cliquez sur <b>Upload Data</b> au en haut du panneau de gauche
                   </li>
                   <li>
-                      Click on <b>Choose local file</b> and select the files or drop the files in the <b>Drop files here</b> part
+                      Cliquez sur <b>Choose local file</b> et sélectionnez les fichiers ou les déposer dans la fenêtre “Drop files here”
                   </li>
                   <li>
-                      Click on <b>Start</b>
+                      Cliquez sur <b>Start</b>
                   </li>
                   <li>
-                      Click on <b>Close</b>
+                      Cliquez sur <b>Close</b>
                   </li>
                 </ol>
               </li>
@@ -76,23 +76,23 @@
 
               <li>
                 <p class="lead fw-bold">
-                  Using the galaxy-upload pyhton script
+                  En utilisant le script python galaxy-upload
                 </p>
                 <p>
-                    If you are uploading your files from a Linux environment on which Python is installed, you can use the following Python code
-                    to assist you uploading files directly into your Galaxy histories.<br>
+                    Si vous téléversez des fichiers à partir d’un environnement Linux sur lequel Python est installé, vous pouvez
+                    utiliser le script suivant pour téléverser directement vos fichiers dans un historique de Galaxy.<br>
                 </p>
                 <ol>
                   <li>
-                    Generate a secret key in your Galaxy account under "User/Preferences/Manage API Key".
+                    D’abord générer une clé secrète dans votre compte sur Galaxy sous  "User/Preferences/Manage API Key".
                   </li>
 
                   <li>
-                      Get the code from Github: <a href="https://github.com/usegalaxy-ca/galaxy-upload">https://github.com/usegalaxy-ca/galaxy-upload</a>
+                      Procurez-vous le code sur Github: <a href="https://github.com/usegalaxy-ca/galaxy-upload">https://github.com/usegalaxy-ca/galaxy-upload</a>
                   </li>
 
                   <li>
-                    Follow the simple instructions here: <a href="https://github.com/usegalaxy-ca/galaxy-upload/blob/main/README.md">galaxy-upload README.md</a>
+                    Suivez les instructions ici: <a href="https://github.com/usegalaxy-ca/galaxy-upload/blob/main/README.md">galaxy-upload README.md</a>
                   </li>
                 </ol>
               </li>
@@ -101,15 +101,39 @@
 
               <li>
                 <p class="lead fw-bold">
-                  Directly using the Galaxy API (Bioblend) from your code (for advanced users)
+                  En utilisant directement l’API de Galaxy (BioBlend) à l’intérieur de votre code (pour utilisateurs avancés)
                 </p>
                   <p>
-                      BioBlend is a Python library for interacting with the Galaxy API. It’s goal is to make it easier to script
-                      and automate the running of Galaxy analyses and administering of a Galaxy server.
-                      You can find the full documentation here:
-                      <b><a href="https://bioblend.readthedocs.io/en/latest/index_fr.html">Bioblend Full Documentation</a></b>
+                      Bioblend est une librairie Python pour interagir avec l’API de Galaxy. Son but est de faciliter
+                      la création de script d’automatisation pour exécuter des analyses sur Galaxy, de même que de permettre
+                      l’administration à distance de votre environnement dans Galaxy. Vous trouverez
+                      <a href="https://bioblend.readthedocs.io/en/latest/index_fr.html">ici</a> toute la documentation sur Bioblend.
                   </p>
                 <ol>
+
+                </ol>
+              </li>
+
+              <li>
+                <p class="lead fw-bold">
+                  En utilisant Globus pour le transfert et le partage de données vers Galaxy
+                </p>
+                  <p>
+                    Globus est un service de transfert de fichiers fiable, sécuritaire et efficace.
+                      Mis au point spécifiquement pour le monde de la recherche, Globus possède une interface
+                      facile d’utilisation qui automatise la gestion et le transfert de fichiers entre deux
+                      ressources, que ce soit une grappe de calcul, un serveur dans un laboratoire,
+                      une station de travail ou un laptop.
+                      <br><br>
+                      Si vous ne connaissez pas Globus, nous vous suggérons de lire la documentation générale
+                      sur Globus <a href="https://docs.globus.org/">ici</a>, et par la suite plus spécifiquement la documentation
+                      s'adressant aux utilisateurs canadiens <a href="https://docs.alliancecan.ca/wiki/Globus">ici</a>
+                  </p>
+                  Pour plus d’information sur comment partager des données dans Globus et sur l’importation et la visualisation
+                  de “tracks” voir <a href="https://starthere.usegalaxy.ca/globus_collection.html">Globus Collection for Canadian users</a>.
+                  UseGalaxy Canada n’est présentement pas configuré comme un “Globus Endpoint”, mais vous pouvez tout de même importer
+                  des fichiers dans Galaxy en fournissant des URLs à la fonction de téléversement Galaxy (#1).
+                  <br><br>
 
                 </ol>
               </li>
