@@ -349,7 +349,7 @@ a:hover {
   padding-bottom: 3%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+    align-items: flex-start;
   font-size: var(--fontsize-xsmall);
   border-top: 1px solid lightgray;
 }
