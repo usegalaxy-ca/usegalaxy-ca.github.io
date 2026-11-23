@@ -221,7 +221,9 @@ a:hover {
 
 .RequestSections {
   width:100%;
+  box-sizing: border-box;
   display:flex;
+  flex-wrap: wrap;
   padding-left: 5%;
   padding-right: 5%;
   justify-content: space-around;
@@ -248,6 +250,21 @@ a:hover {
   background: var(--tile-bg-hover);
   color: white;
   text-decoration: none;
+}
+.LinkRequestBox--wide {
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+  height: auto;
+  max-height: none;
+  padding: 12px 18px;
+}
+.LinkRequestBoxSubtitle {
+  font-weight: normal;
+  font-size: var(--fontsize-xsmall);
+  margin-top: 2px;
 }
 
 .LoginButtonSections{
